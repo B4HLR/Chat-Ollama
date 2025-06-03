@@ -1,0 +1,42 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Explique";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Default.css" asp-append-version="true" />
+</head>
+
+<main>
+    <section class="main-chat">
+        <div class="chat-ollama">
+            @if (!string.IsNullOrWhiteSpace(Model.Termo))
+            {
+                <div class="user">Usuário: @Model.Termo</div>
+            }
+
+            @if (!string.IsNullOrEmpty(Model.RespostaExplicada))
+            {
+                <div class="bot">Ollhama: @Model.RespostaExplicada</div>
+            }
+            else if (!string.IsNullOrWhiteSpace(Model.Termo))
+            {
+                <div class="bot">Ollhama: Carregando...</div>
+            }
+        </div>
+    </section>
+
+    <section>
+        <div class="main-section">
+            <div class="display-submit">
+                <form method="post">
+                    <input type="text" asp-for="Termo" placeholder="Faça sua pergunta" />
+                    <button type="submit">
+                        <img src="~/imgs/next.png" alt="Enviar" />
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>

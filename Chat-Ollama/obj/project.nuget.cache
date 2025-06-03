@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UPDvY36QAgQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\guilh\\Downloads\\Chat-ollama-main\\Chat-ollama-main\\Chat-Ollama\\Chat-Ollama.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guilh\\.nuget\\packages\\pdfpig\\0.1.10\\pdfpig.0.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

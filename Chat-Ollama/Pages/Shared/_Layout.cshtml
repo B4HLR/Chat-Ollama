@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Chat_Ollama</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Chat_Ollama.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header >
+        <h1>Ia Pika</h1>
+        <img src="~/imgs/ollama.png" alt="">
+        <nav>
+            <ul>
+                <li>
+                    <a asp-area="" asp-page="/Index">Explique</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-page="/Privacy">Sentimentos Simples</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-page="/ResumoDoc">Resumo de Um Doc</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+            @RenderBody()
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

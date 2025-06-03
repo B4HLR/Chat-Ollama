@@ -1,0 +1,108 @@
+﻿
+main {
+    margin-left: 250px;
+    padding: 10rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    
+    main .main-section {
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    main .display-submit {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 20px;
+        border: 2px solid rgb(110, 192, 192);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        background-color: #fff; 
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+        
+        main .display-submit input[type="text"] {
+            min-width: 50vw;
+            padding: 6px 10px;
+            border: 1px solid rgb(110, 192, 192);
+            border-radius: 10px;
+            font-size: 1rem;
+            color: #000;
+        }
+
+        main .display-submit input::placeholder {
+            color: black;
+        }
+
+        
+        main .display-submit button {
+            background-color: white;
+            border: 1px solid rgb(110, 192, 192);
+            border-radius: 50%; 
+            padding: 5px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+            main .display-submit button:hover {
+                background-color: rgb(220, 245, 245);
+                border-color: rgb(64, 148, 148);
+            }
+
+            
+            main .display-submit button img {
+                width: 22px;
+                height: 22px;
+                object-fit: contain;
+                pointer-events: none; 
+                transition: filter 0.4s;
+            }
+
+                main .display-submit button img:hover {
+                    filter: drop-shadow(0px 0px 8px rgb(64, 148, 148));
+                }
+
+   
+    main section .chat-ollama {
+        background-color: rgb(128, 128, 128);
+        padding: 250px 200px;
+        border: 2px solid rgb(110, 192, 192);
+        border-radius: 20px;
+        min-width: 60vw;
+        max-width: 20vw;
+    }
+
+@media (max-width: 768px) {
+    main {
+        margin-left: 0;
+        padding: 3rem;
+        height: auto;
+    }
+
+        main .display-submit input[type="text"] {
+            min-width: 70vw;
+        }
+
+        main section .chat-ollama {
+            padding: 100px 50px;
+            min-width: 90vw;
+            max-width: none;
+        }
+}

@@ -1,0 +1,30 @@
+﻿@page
+@model ResumoDocModel
+@{
+    ViewData["Title"] = "Resumo de Doc";
+}
+<head>
+    <link rel="stylesheet" href="~/css/Default.css" asp-append-version="true" />
+</head>
+<main>
+    <section class="main-chat">
+        <div class="chat-ollama">
+            @if (!string.IsNullOrEmpty(Model.RespostaExplicada))
+            {
+                <div class="bot">Ollhama: @Model.RespostaExplicada</div>
+            }
+        </div>
+    </section>
+    <section>
+        <div class="main-section">
+            <div class="display-submit">
+                <form method="post" enctype="multipart/form-data">
+                    <input type="file" asp-for="Termo" accept=".pdf" />
+                    <button type="submit">
+                        <img src="~/imgs/next.png" alt="Enviar" />
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
