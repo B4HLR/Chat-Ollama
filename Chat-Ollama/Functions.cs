@@ -42,7 +42,7 @@ public class AnaliseDeSentimento
 
     public async Task<string> Sentido(string duvida)
     {
-        string prompt = $"Analise o sentimento do texto e responda apenas com “positiva”, “negativa” ou “neutra”'{duvida}'";
+        string prompt = $"Analise o sentimento do texto e responda apenas com “positiva”, “negativa” ou “neutra”:'{duvida}'";
         return await _ollama.EnviarPrompt(prompt);
     }
 }

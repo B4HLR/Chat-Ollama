@@ -1,50 +1,29 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\Jhon\\Documents\\Chat\\Chat-Ollama\\Chat-Ollama.csproj": {}
+    "C:\\Users\\guilh\\source\\repos\\B4HLR\\Chat-Ollama\\Chat-Ollama\\Chat-Ollama.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jhon\\Documents\\Chat\\Chat-Ollama\\Chat-Ollama.csproj": {
+    "C:\\Users\\guilh\\source\\repos\\B4HLR\\Chat-Ollama\\Chat-Ollama\\Chat-Ollama.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jhon\\Documents\\Chat\\Chat-Ollama\\Chat-Ollama.csproj",
+        "projectUniqueName": "C:\\Users\\guilh\\source\\repos\\B4HLR\\Chat-Ollama\\Chat-Ollama\\Chat-Ollama.csproj",
         "projectName": "Chat-Ollama",
-        "projectPath": "C:\\Users\\Jhon\\Documents\\Chat\\Chat-Ollama\\Chat-Ollama.csproj",
-        "packagesPath": "C:\\Users\\Jhon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jhon\\Documents\\Chat\\Chat-Ollama\\obj\\",
-=======
-    "C:\\Users\\PC\\source\\repos\\Chat-Ollama\\Chat-Ollama.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\PC\\source\\repos\\Chat-Ollama\\Chat-Ollama.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\Chat-Ollama\\Chat-Ollama.csproj",
-        "projectName": "Chat-Ollama",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\Chat-Ollama\\Chat-Ollama.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\source\\repos\\Chat-Ollama\\obj\\",
->>>>>>> b57f110e7238cf622a5a7410d9d171e6e3035d74
+        "projectPath": "C:\\Users\\guilh\\source\\repos\\B4HLR\\Chat-Ollama\\Chat-Ollama\\Chat-Ollama.csproj",
+        "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guilh\\source\\repos\\B4HLR\\Chat-Ollama\\Chat-Ollama\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Comp\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\Jhon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> b57f110e7238cf622a5a7410d9d171e6e3035d74
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +42,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -93,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

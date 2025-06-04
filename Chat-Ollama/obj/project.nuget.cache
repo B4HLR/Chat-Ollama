@@ -1,18 +1,10 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "GoAi1cPISj0=",
+  "dgSpecHash": "DLNKCxx8qoQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jhon\\Documents\\Chat\\Chat-Ollama\\Chat-Ollama.csproj",
+  "projectFilePath": "C:\\Users\\guilh\\source\\repos\\B4HLR\\Chat-Ollama\\Chat-Ollama\\Chat-Ollama.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Jhon\\.nuget\\packages\\pdfpig\\0.1.10\\pdfpig.0.1.10.nupkg.sha512"
-=======
-  "dgSpecHash": "4j+uyJz8EAo=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\PC\\source\\repos\\Chat-Ollama\\Chat-Ollama.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\PC\\.nuget\\packages\\pdfpig\\0.1.10\\pdfpig.0.1.10.nupkg.sha512"
->>>>>>> b57f110e7238cf622a5a7410d9d171e6e3035d74
+    "C:\\Users\\guilh\\.nuget\\packages\\pdfpig\\0.1.10\\pdfpig.0.1.10.nupkg.sha512"
   ],
   "logs": []
 }
