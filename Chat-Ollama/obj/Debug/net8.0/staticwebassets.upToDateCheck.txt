@@ -60,4 +60,7 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+<<<<<<< HEAD
 wwwroot\css\Default.css
+=======
+>>>>>>> b57f110e7238cf622a5a7410d9d171e6e3035d74
